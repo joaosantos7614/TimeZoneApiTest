@@ -1,6 +1,6 @@
 document.getElementById('button1').onclick = function() {
     var timezone = document.getElementById("input_box1").value;
-    if(timezone == "") timezone=0;
+    if(timezone == "") timezone=1;
     var UrlAPI = `https://personal-0kioaskk.outsystemscloud.com/ZZtestPage/rest/SimpleTime_API/TimeZone_API?TimeZone=${timezone}`;
     // Create a request variable and assign a new XMLHttpRequest object to it.
     var request = new XMLHttpRequest()
